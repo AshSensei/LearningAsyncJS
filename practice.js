@@ -20,6 +20,7 @@ console.log(greeting);
 //async keyword makes a function an async function and you can make sure a call awaits a process and it will return a complete response object
 //only use await inside an async function
 
+/*
 const label = document.querySelector("#name");
 const delay = document.querySelector("#delay");
 const button = document.querySelector("#set-alarm");
@@ -53,3 +54,8 @@ button.addEventListener("click", async () => {
     output.textContent = `Couldn't set alarm: ${error}`;
   }
 });
+
+*/
+
+//web workers run tasks in different threads so you can have multiple tasks running simultaneously
+//main code and worker code never directly access each other to prevent errors, means workers cannot access DOM
